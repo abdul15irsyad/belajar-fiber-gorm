@@ -21,4 +21,4 @@ go run main.go
 
 ## Postman Collection
 
-import postman collection via API with this link https://api.postman.com/collections/6292564-b13d5591-d95a-455b-81d9-5ee404add200?access_key=PMAT-01GRVE5CNTPWBGSKMG8YF9QQ7E
+import postman collection via API with this link https://elements.getpostman.com/redirect?entityId=6292564-b13d5591-d95a-455b-81d9-5ee404add200&entityType=collection
