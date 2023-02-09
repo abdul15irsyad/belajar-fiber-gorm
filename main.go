@@ -5,6 +5,7 @@ import (
 	"abdul15irsyad/belajar-fiber-gorm/database/migration"
 	"abdul15irsyad/belajar-fiber-gorm/routes"
 	"log"
+	"os"
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/joho/godotenv"
@@ -38,6 +39,7 @@ func main() {
 
 	// routes
 	routes.Routes(app)
+	port := os.Getenv("PORT")
 
-	app.Listen("localhost:3000")
+	app.Listen(":" + port)
 }
